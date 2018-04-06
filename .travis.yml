@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: DEXWJW/ZD5RRDva3CjGKXzzmyWmhcCaS61QZz7ySh7FR0k0dRWlxwm19ywE8/vcrDmOAMxOlQaO5W68u4opEPYscCEAsEH0grcpzX4e7u2G0OinJkLAYD5UNbod2vK+JdZ0R+MFH37CvGKXQ5DnscKG3oSeAqd5LaCphfJR5KU5z4AqQMUfo6hgaS33DxyNXWOam21rcLpzltrBBn+TuYUS7NgRVziSIssaVHviP+nnl5FZKVODHjAESQSBOS+0/+oggqgo+pjbSEcBA4q6QQFxCNBrL3/9pAappkbGG8gObrUrKHR7aKQ3kBp6vwqG6a3WGnUVN9rk3Tul3sQDQO513ugzLePdXgOHtkxQgd/k9mlF697i9olFJ3DGz0o5QdFkC9Hkc1hsIKG9349IZ/c5aRrnEfhX6HSknnq3cpwzCFZfe0vmrLqf2Z0lWhAEPAl9GRxdn5CJKGw+rR4sLd55nNFjDoIU/6MMEj0viWkX5sEA7W2sEzB50+5f7y25ZBCORUbvjcNNodfFgzyWd7chTDJBD2kS+LQobqrYJbdCevMoCud/83E2GFrKyWbg97Qxx9/hhnNencf8gSDDi0g9s9Ja9QRUbnO+e/6YpuceOmbDPwYDn2vzhhvFjrS3kz2DKuaKTQqIQmgsoA8T6liFHZcQMbMB4n1fre6yppWc=
+  app: theLittleThings-API
+  on:
+    repo: eako0508/theLittleThings-API
